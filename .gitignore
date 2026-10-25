@@ -1,0 +1,15 @@
+# ESP-IDF 生成物
+**/build/
+**/build_backup*/
+**/managed_components/
+**/sdkconfig
+**/sdkconfig.old
+
+# 本机设置和凭据
+.vscode/
+.env
+.env.*
+!.env.example
+**/secrets.h
+.DS_Store
+Thumbs.db
